@@ -9,11 +9,6 @@
 
 # 왓챠
 
-## 안드로이드팀 문화 - bus factor
-
-우리 팀은 특정 앱이나 기능이 한 사람에게만 의존하지 않도록 Bus factor를 높이는 방식으로 일하고 있다.   
-여러 앱을 운영하면서도 담당자를 고정하기보다는, 누구든 필요한 앱에 들어가 개발하고 유지보수할 수 있는 구조를 지향한다.
-
 ## [숏챠](https://play.google.com/store/apps/details?id=com.frograms.atom)
 
 > 개발 리드, 2025 구글플레이 ‘올해를 빛낸 숨은 보석 앱’ 선정
@@ -71,6 +66,7 @@
 * 탐색 애니메이션 규칙화(MaterialSharedAxis): 화면별 전환 차이로 인한 UX 산만함을 줄여 일관된 탐색 경험 제공
 * RxJava → RxJava2 마이그레이션: Single, Completable 등 RxJava2 기반 타입/오퍼레이터 활용
 * 주요 화면 접근성(TalkBack) 개선: 스크린리더 사용자를 위해 콘텐츠 설명, 포커스 순서, 터치 타겟 등을 정비
+* Fragment 기반 Navigation에서 Navigation Compose로 migration
 
 ### 문제 해결
 * [이상적인 탐색탭](https://github.com/MHchangjun/-/blob/master/issue/realm.md)
@@ -96,6 +92,15 @@
 ### 피쳐
 * 로그인 개선, 이메일 인증 추가
 * 콘텐츠 평가 카드 공유
+
+---
+
+## 안드로이드팀 문화 - bus factor
+
+우리 팀은 특정 앱이나 기능이 한 사람에게만 의존하지 않도록 Bus factor를 높이는 방식으로 일하고 있다.   
+여러 앱을 운영하면서도 담당자를 고정하기보다는, 누구든 필요한 앱에 들어가 개발하고 유지보수할 수 있는 구조를 지향한다.
+
+---
 
 ## 고찰 🤔
 
@@ -142,11 +147,15 @@ Claude Code, Codex, Gemini — 디자인→코드, 리팩토링, 리뷰까지 �
 
 [더보기](https://github.com/MHchangjun/-/blob/master/kanna.md)
 
-### Smoker (2026.1 ~ )
+### Smoker (2026.1 ~ 2026.4)
 
 Kanna에서 파고들었던 Local LLM을 기반으로 방향을 옮겨 **Smoker**를 개발 중이다. 상용 Agent가 잘 처리하는 단발성 작업이 아닌, 정적 분석 이슈 수정처럼 안드로이드 개발자가 반복적으로 챙겨야 할 유지보수 영역을 자동화한다.
 
 [더보기](https://github.com/MHchangjun/-/blob/master/smoker.md)
+
+### Simul (2026.9 ~ )
+
+Local LLM 일자리 찾아주기
 
 ## 고찰 🤔
 * [Intell Mac Pro에서 Local LLM 서빙하기 — Ollama -> llama.cpp + Vulkan](https://github.com/MHchangjun/-/blob/master/serving.md)
