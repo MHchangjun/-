@@ -160,6 +160,7 @@ Local LLM 일자리 찾아주기
 ## 고찰 🤔
 * [Intell Mac Pro에서 Local LLM 서빙하기 — Ollama -> llama.cpp + Vulkan](https://github.com/MHchangjun/-/blob/master/serving.md)
 * [Mac Pro(2019)로 122B 모델을 돌릴 수 있을까?](https://github.com/MHchangjun/-/blob/master/serving2.md)
+* [2019년형 Mac Pro에서 LLM 프롬프트 처리가 15배 느려진 범인을 찾아서](https://github.com/MHchangjun/-/blob/master/serving3.md)
 * [Model를 알고 Agent를 알아라](https://github.com/MHchangjun/-/blob/master/model.md)
 * 항상 똑같은 system prompt 어떻게 cache할까?
 * [경량급 Local LLM을 사용하는 Smoker가 코드 스멜을 99% 고치게 된 이유 - auto diagnostics](https://github.com/MHchangjun/-/blob/master/auto-diagnostics.md)
