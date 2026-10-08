@@ -106,6 +106,7 @@
 
 * [suspend와 LSP의 계약에 대한 고찰](https://github.com/MHchangjun/-/blob/master/issue/suspend.md)
 * [Compose Layout 속 그라데이션](https://github.com/MHchangjun/-/blob/master/issue/compose1.md)
+* [화면은 무엇인가](https://github.com/MHchangjun/-/blob/master/screen.md)
 
 # Hitit
 
